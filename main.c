@@ -17,6 +17,9 @@ Copyright © zuozhongkai Co., Ltd. 1998-2019. All rights reserved.
  * @return 		: 无
  */
 void clk_enable(void)
+//
+//
+//
 {
 	CCM->CCGR0 = 0XFFFFFFFF;
 	CCM->CCGR1 = 0XFFFFFFFF;
